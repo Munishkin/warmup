@@ -5,4 +5,6 @@ module.exports = function warmup(temperature) {
   if (temperature === 0) {
     return 32;
   }
+
+  return (temperature * 9) / 5 + 32
 };
